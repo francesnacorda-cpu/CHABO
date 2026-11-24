@@ -13,7 +13,7 @@ def main() -> None:
     client = genai.Client()
 
     chat = client.chats.create(
-        model="gemini-2.5-flash",
+        model="gemini-3.5-flash-lite",
         config=types.GenerateContentConfig(
             system_instruction=(
                 "You are CHABO AI, a helpful, clear, and friendly AI assistant "
